@@ -1,0 +1,4 @@
+src/*.swp
+src/node_modudes/
+node_modudes/
+package-*.json

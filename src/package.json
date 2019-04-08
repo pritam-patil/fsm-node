@@ -1,0 +1,32 @@
+{
+  "name": "fsm-node-b",
+  "version": "0.0.1",
+  "description": "Blazing fast RESTful APIs with fastify, swagger and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./index/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritam-patil/fsm-node.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "REST"
+  ],
+  "author": "pritam-patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pritam-patil/fsm-node/issues"
+  },
+  "homepage": "https://github.com/pritam-patil/fsm-node#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.1.0",
+    "fastify-swagger": "^2.3.2",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10"
+  }
+}
